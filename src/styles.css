@@ -1,0 +1,130 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #222;
+  color: #fff;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.buttons {
+  margin-bottom: 20px;
+}
+
+.buttons span {
+  display: inline-block;
+  padding: 8px 12px;
+  margin-right: 8px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.buttons span:hover {
+  background-color: #555;
+}
+
+.actor-button,
+.director-button {
+  display: inline-block;
+  padding: 8px 12px;
+  margin-right: 8px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+}
+
+.actor-button:hover,
+.director-button:hover {
+  background-color: #555;
+}
+
+.container p {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.container p:hover {
+  background-color: #333;
+}
+
+.text-button {
+  display: inline-block;
+  padding: 8px 12px;
+  margin-right: 8px;
+  background-color: transparent;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.text-button:hover {
+  background-color: #555;
+}
+
+.movie-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #222;
+  color: #fff;
+  height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.back-button {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.back-button a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #fff;
+  text-decoration: none;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.back-button a:hover {
+  background-color: #fff;
+  color: #333;
+}
+
+.movie-details {
+  background-color: #333;
+  padding: 20px;
+  border-radius: 5px;
+  width: 500px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin: 0 auto;
+}
+
+.movie-details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.movie-details p {
+  margin-bottom: 5px;
+}
